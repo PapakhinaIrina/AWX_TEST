@@ -8,13 +8,9 @@ export const WithDrawalMethodList = () => {
   return (
     <div className="withdrawal-layout">
       <MethodTabs />
-
       <BankSelector />
-
       <VolumeSection />
-
       <Requisites checked={true} onChange={() => null} />
-
       <RequisitesCardList />
     </div>
   );
